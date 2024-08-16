@@ -60,6 +60,8 @@ async function search(){
             </table>
         </div>
             `;
+            document.getElementById("body").style.backgroundImage="url('./img/reflection-sunset-sky.jpg')"
+            
         if(weather.weather[0].main=="Clouds"){
             document.getElementById("weather").style.backgroundImage="url('./img/photorealistic-style-clouds.jpg')";
             document.getElementById("weth").style.color="black";
@@ -130,7 +132,7 @@ async function search(){
             document.getElementById("p6").style.color="rgb(219, 217, 217)";
         }
         else{
-            document.getElementById("weather").style.backgroundImage="url('./img/background-with-rain-dark-sky_1308-10107.avif')"
+            document.getElementById("weather").style.backgroundImage="url('./img/beautiful-skyscape-daytime_23-2149265566.avif')"
         }
     }
     }
