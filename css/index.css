@@ -43,7 +43,8 @@ body{
     height: 5vh;
     border: none;
     border-radius: 8px;
-    background-color: rgb(24, 229, 99);
+    color: white;
+    background-color: rgb(24, 137, 229);
 }
 #weth{
     width: 100%;
