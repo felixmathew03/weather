@@ -60,11 +60,9 @@ async function search(){
             </table>
         </div>
             `;
-            document.getElementById("body").style.backgroundImage="url('./img/reflection-sunset-sky.jpg')"
-            
         if(weather.weather[0].main=="Clouds"){
-            document.getElementById("weather").style.backgroundImage="url('./img/photorealistic-style-clouds.jpg')";
-            document.getElementById("weth").style.color="black";
+            document.getElementById("body").style.backgroundImage="url('./img/photorealistic-style-clouds.jpg')";
+            document.getElementById("weth").style.color="white";
             document.getElementById("p1").style.color="gray";
             document.getElementById("p2").style.color="gray";
             document.getElementById("p3").style.color="gray";
@@ -73,7 +71,7 @@ async function search(){
             document.getElementById("p6").style.color="gray";
         } 
         else if(weather.weather[0].main=="Rain"){
-            document.getElementById("weather").style.backgroundImage="url('./img/background-with-rain-dark-sky_1308-10107.avif')";
+            document.getElementById("body").style.backgroundImage="url('./img/background-with-rain-dark-sky_1308-10107.avif')";
             document.getElementById("weth").style.color="white";
             document.getElementById("p1").style.color="black";
             document.getElementById("p2").style.color="black";
@@ -83,7 +81,7 @@ async function search(){
             document.getElementById("p6").style.color="black";
         }
         else if(weather.weather[0].main=="Snow"){
-            document.getElementById("weather").style.backgroundImage="url('./img/christmas-snow-background_1048-12843.avif')";
+            document.getElementById("body").style.backgroundImage="url('./img/christmas-snow-background_1048-12843.avif')";
             document.getElementById("p1").style.color="blue";
             document.getElementById("p2").style.color="blue";
             document.getElementById("p3").style.color="blue";
@@ -92,7 +90,7 @@ async function search(){
             document.getElementById("p6").style.color="blue";
         } 
         else if(weather.weather[0].main=="Atmosphere"){
-            document.getElementById("weather").style.backgroundImage="url('./img/sky-landscape-background-with-clouds_23-2149134122.avif')";
+            document.getElementById("body").style.backgroundImage="url('./img/sky-landscape-background-with-clouds_23-2149134122.avif')";
             document.getElementById("weth").style.color="white";
             document.getElementById("p1").style.color="black";
             document.getElementById("p2").style.color="black";
@@ -102,7 +100,7 @@ async function search(){
             document.getElementById("p6").style.color="black";
         } 
         else if(weather.weather[0].main=="Clear"){
-            document.getElementById("weather").style.backgroundImage="url('./img/beautiful-skyscape-daytime_23-2149265566.avif')"
+            document.getElementById("body").style.backgroundImage="url('./img/beautiful-skyscape-daytime_23-2149265566.avif')"
             document.getElementById("weth").style.color="rgb(3, 17, 99)";
             document.getElementById("p1").style.color="black";
             document.getElementById("p2").style.color="black";
@@ -112,7 +110,7 @@ async function search(){
             document.getElementById("p6").style.color="black";
         } 
         else if(weather.weather[0].main=="Thunderstorm"){
-            document.getElementById("weather").style.backgroundImage="url('./img/thunderstorm-city-nighttime_23-2151750424.avif')"
+            document.getElementById("body").style.backgroundImage="url('./img/thunderstorm-city-nighttime_23-2151750424.avif')"
             document.getElementById("weth").style.color="white";
             document.getElementById("p1").style.color="rgb(219, 217, 217)";
             document.getElementById("p2").style.color="rgb(219, 217, 217)";
@@ -122,7 +120,7 @@ async function search(){
             document.getElementById("p6").style.color="rgb(219, 217, 217)";
         } 
         else if(weather.weather[0].main=="Clouds"){
-            document.getElementById("weather").style.backgroundImage="url('./img/beautiful-flowers-seen-humidity-glass_23-2149453589.avif')"
+            document.getElementById("body").style.backgroundImage="url('./img/beautiful-flowers-seen-humidity-glass_23-2149453589.avif')"
             document.getElementById("weth").style.color="white";
             document.getElementById("p1").style.color="rgb(219, 217, 217)";
             document.getElementById("p2").style.color="rgb(219, 217, 217)";
@@ -132,7 +130,7 @@ async function search(){
             document.getElementById("p6").style.color="rgb(219, 217, 217)";
         }
         else{
-            document.getElementById("weather").style.backgroundImage="url('./img/beautiful-skyscape-daytime_23-2149265566.avif')"
+            document.getElementById("body").style.backgroundImage="url('./img/beautiful-skyscape-daytime_23-2149265566.avif')"
         }
     }
     }
